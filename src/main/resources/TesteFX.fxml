@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ButtonBar layoutX="334.0" layoutY="263.0" prefHeight="40.0" prefWidth="73.0" />
+       <Button layoutX="308.0" layoutY="241.0" mnemonicParsing="false" text="Button" />
+       <ButtonBar layoutX="334.0" layoutY="263.0" prefHeight="40.0" prefWidth="73.0" />
+       <Button layoutX="308.0" layoutY="191.0" mnemonicParsing="false" text="Button" />
+      <FlowPane layoutX="180.0" layoutY="122.0" prefHeight="200.0" prefWidth="200.0" />
+      <ComboBox layoutX="78.0" layoutY="122.0" prefWidth="150.0" />
+   </children>
+
+</AnchorPane>
