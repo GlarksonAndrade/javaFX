@@ -1,4 +1,4 @@
-package com.example.aprendendo_fx;
+package basico;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
@@ -11,6 +11,9 @@ import javafx.stage.Stage;
 
 public class Contador extends Application {
 
+    private int contador =0;
+
+
     public static void main(String[] args) {
         launch(args);}
 
@@ -21,7 +24,17 @@ public class Contador extends Application {
         Label numero = new Label("0");
 
         Button botaoDecremento = new Button("-");
+        botaoDecremento.setOnAction(e -> {
+            contador--;
+            numero.setText(Integer.toString(contador));
+        });
+
         Button botaoIncremento = new Button("+");
+        botaoIncremento.setOnAction(e -> {
+            contador++;
+            numero.setText(Integer.toString(contador));
+
+        });
 
         HBox boxBotoes = new HBox();
         boxBotoes.setAlignment(Pos.CENTER);
@@ -36,8 +49,11 @@ public class Contador extends Application {
         boxPrincipal.getChildren().add(numero);
         boxPrincipal.getChildren().add(boxBotoes);
 
-
+        String caminhoCSS = getClass()
+                .getResource("/Contador.css")
+                .toExternalForm();
         Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
+        cenaPrincipal.getStylesheets().add(caminhoCSS);
 
         primaryStage.setScene(cenaPrincipal);
 
