@@ -1,3 +1,13 @@
 .conteudo{
-    -fx-background-color: red;
+    -fx-background-color: #000;
+    -fx-font-family: Oswald;
+}
+.titulo{
+    -fx-text-fill: #48b2ee;
+    -fx-font-szie: 36px;
+}
+.numero{
+    -fx-text-fill: #eee;
+    -fx-font-szie: 28px;
+
 }

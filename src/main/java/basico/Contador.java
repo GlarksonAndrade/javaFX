@@ -21,7 +21,10 @@ public class Contador extends Application {
     public void start(Stage primaryStage) {
 
         Label labellTitulo = new Label("Contador");
+        labellTitulo.getStyleClass().add("titulo");
+
         Label numero = new Label("0");
+        numero.getStyleClass().add("numero");
 
         Button botaoDecremento = new Button("-");
         botaoDecremento.setOnAction(e -> {
@@ -43,6 +46,8 @@ public class Contador extends Application {
         boxBotoes.getChildren().add(botaoIncremento);
 
         VBox boxPrincipal = new VBox();
+
+        boxPrincipal.getStyleClass().add("conteudo");
         boxPrincipal.setSpacing(10);
         boxPrincipal.setAlignment(Pos.CENTER);
         boxPrincipal.getChildren().add(labellTitulo);
@@ -54,6 +59,7 @@ public class Contador extends Application {
                 .toExternalForm();
         Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
         cenaPrincipal.getStylesheets().add(caminhoCSS);
+        cenaPrincipal.getStylesheets().add("https://fonts.googleapis.com/css2?family=Oswald");
 
         primaryStage.setScene(cenaPrincipal);
 
