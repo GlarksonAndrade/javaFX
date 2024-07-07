@@ -11,3 +11,20 @@
     -fx-font-szie: 28px;
 
 }
+
+.botoes{
+    -fx-background-color: #fff;
+    -fx-text-fill: #48b2ee;
+    -fx-font-szie: 28px;
+    -fx-min-width: 30px;
+    -fx-min-heigth: 30px;
+    -fx-background-radius: 30px;
+}
+
+.verde{
+    -fx-text-fill: #abdb82;
+
+}
+.vermelha{
+    -fx-text-fill: #ee4139;
+}
