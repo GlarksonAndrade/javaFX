@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5d34206-62e2-48c3-89ee-4ef085d886d3" name="Changes" comment="kkkk">
+      <change afterPath="$PROJECT_DIR$/src/main/java/basico/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/basico/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basico/Contador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Contador.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Contador.css" afterDir="false" />
@@ -53,18 +54,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Contador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioContador.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeiroFX.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Contador.executor": "Run",
+    "Application.ExercicioContador.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.PrimeiroFX.executor": "Run",
+    "Application.Wizard.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aloisio.gajesus\IdeaProjects\Aprendendo_FX\src\main\resources" />
@@ -111,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720216241852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kkkk">
+      <option name="closed" value="true" />
+      <created>1720383446091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720383446091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

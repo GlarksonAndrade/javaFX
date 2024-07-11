@@ -12,9 +12,21 @@
 
 }
 
-.botoes{
-    -fx-background-color: #fff;
-    -fx-text-fill: #48b2ee;
+.botaoVerde{
+    -fx-background-color: #abdb82;
+    -fx-text-fill: #000;
+    -fx-font-szie: 28px;
+    -fx-min-width: 30px;
+    -fx-min-heigth: 30px;
+    -fx-background-radius: 30px;
+}
+
+.botaoVermelho{
+    -fx-background-color: #ee4139;
+    -fx-border: solid 20px blue;
+    -fx-color: blue;
+    -fx-transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    -fx-text-fill: #000;
     -fx-font-szie: 28px;
     -fx-min-width: 30px;
     -fx-min-heigth: 30px;
@@ -23,8 +35,8 @@
 
 .verde{
     -fx-text-fill: #abdb82;
-
 }
+
 .vermelha{
     -fx-text-fill: #ee4139;
 }

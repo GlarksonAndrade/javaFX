@@ -42,14 +42,15 @@ public class Contador extends Application {
 
 
         Button botaoDecremento = new Button("-");
-        botaoDecremento.getStyleClass().add("botoes");
+        botaoDecremento.getStyleClass().add("botaoVermelho");
         botaoDecremento.setOnAction(e -> {
             contador--;
             atualizarLabelNumero(numero);
         });
 
         Button botaoIncremento = new Button("+");
-        botaoIncremento.getStyleClass().add("botoes");
+        botaoIncremento.getStyleClass().add("botaoVerde");
+        botaoIncremento.getStyleClass().add("botao:hover");
         botaoIncremento.setOnAction(e -> {
             contador++;
             atualizarLabelNumero(numero);
